@@ -33,4 +33,4 @@ This research has been conducted independently, with logistical support facilita
 
 ---
 
-**Disclaimer:** The conclusions presented herein follow necessarily from the axiomatic framework established. Readers accustomed primarily to paradigms rooted in empirical contingency may find the shift towards logically necessitated certainty requires significant cognitive adjustment. The author assumes no responsibility for epistemic vertigo resulting from engagement with foundational truth. For broader project context, see the [main repository README](../../README.md).
+**Disclaimer:** The conclusions presented herein follow necessarily from the axiomatic framework established. Readers accustomed primarily to paradigms rooted in empirical contingency may find the shift towards logically necessitated certainty requires significant cognitive adjustment. The author assumes no responsibility for epistemic vertigo resulting from engagement with foundational truth. For broader project context, see the [main repository README](../README.md).
