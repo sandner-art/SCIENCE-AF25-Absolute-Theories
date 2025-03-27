@@ -3,7 +3,7 @@ import numpy as np
 from plotly.subplots import make_subplots
 
 # Parameters for customization
-resolution = 33  # Number of points in the meshgrid
+resolution = 100  # Number of points in the meshgrid
 colormap = 'Viridis'  # Colormap for heatmap effect
 
 # --- Define Boundary Curve (Arbitrary Closed Shape) ---
