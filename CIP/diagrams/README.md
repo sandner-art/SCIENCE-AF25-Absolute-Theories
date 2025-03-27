@@ -1,22 +1,26 @@
-# CIP Paper Figures 
+# CIP Paper Figures - Updated
 
 ### README Descriptions:
 
-1.  **Figure 1: The Potential of Cosmic Indifference V(Φ<sub>CIP</sub>) (`cip_figure1_potential.png`)**
-    *   **Description:** This plot illustrates the fundamental potential energy landscape governing the Cosmic Attentiveness Field (Φ<sub>CIP</sub>) according to CIP. The potential V(Φ<sub>CIP</sub>) has its global minimum at Φ<sub>CIP</sub> = 0, representing the state of "Maximum Indifference" or "Zero Cosmic Attentiveness." The potential rises away from this minimum, signifying the increasing "cost" or "effort" required for the universe to sustain states deviating from baseline apathy (Φ<sub>CIP</sub> > 0). The non-zero value at the minimum, V(0), corresponds to the dark energy density (ρ<sub>vac</sub>), the minimal energy inherent in the universe's preferred state of doing nothing.
+1.  **Figure 1: The Effective Potential of Cosmic Indifference (`cip_figure1_potential_mexican_hat.png`)**
+    *   **Description:** This plot illustrates the *effective* potential landscape for the Cosmic Attentiveness Field (Φ<sub>CIP</sub>) using a 'Mexican Hat' shape. While ideal indifference (Φ<sub>CIP</sub>=0) represents an unstable peak (labeled 'Effort Barrier'), the universe, governed by CIP, relaxes into the lowest *achievable* energy states in the surrounding troughs (marked as 'Practical Minimum / Trapped Low-Effort State'). Red arrows indicate this relaxation path of least immediate resistance. This interpretation reconciles the potential shape (often associated with symmetry breaking) with CIP by framing the non-zero minimum as a practical consequence of cosmic 'laziness' avoiding the central barrier.
     *   **Placement:** Section 2 (Formalism).
 
 2.  **Figure 2: Spontaneous Relaxation of Attentiveness Field Φ<sub>CIP</sub>(t) (`cip_figure2_relaxation.png`)**
-    *   **Description:** This figure shows the simulated time evolution of the Cosmic Attentiveness Field (Φ<sub>CIP</sub>) in the absence of significant external sources (matter/energy). Starting from an artificially elevated state (Φ<sub>CIP</sub> > 0), the field naturally decays exponentially towards its minimum energy state at Φ<sub>CIP</sub> = 0, driven by the potential V(Φ<sub>CIP</sub>). This visualizes the fundamental CIP dynamic: the universe spontaneously sheds "attentiveness" or "complexity" to return to its baseline state of maximum indifference whenever possible.
-    *   **Placement:** Section 2 (Formalism) or Section 3 (Explanatory Power - e.g., relating to decay).
+    *   **Description:** This figure shows the simulated time evolution of the Cosmic Attentiveness Field (Φ<sub>CIP</sub>) relaxing from an initially elevated state. Driven by the potential V(Φ<sub>CIP</sub>), the field decays towards its baseline (Φ<sub>CIP</sub>=0 or the practical minimum from Fig 1), demonstrating the universe's inherent tendency under CIP to minimize 'attentiveness' or 'effort' over time.
+    *   **Placement:** Section 2 (Formalism) or Section 3 (Explanatory Power).
 
-3.  **Figure 3: Entropy Increase as Decreasing Specification Cost (`cip_figure3_entropy_cost.png`)**
-    *   **Description:** This figure reinterprets the Second Law of Thermodynamics through the lens of CIP. Panel (a) shows schematic snapshots of a system (e.g., particles in a box) evolving from an ordered, low-entropy state to a disordered, high-entropy state. Panel (b) plots the corresponding change over time: while standard entropy (S) increases (blue line), the CIP-defined "Specification Cost" or "Attentiveness Effort" (red line, conceptually related to 1/S or deviation from uniformity) decreases. This illustrates CIP's core argument that entropy increase represents the universe relaxing towards states requiring less specific information and thus less cosmic "effort" to maintain.
+3.  **Figure 3: Entropy Increase Reinterpreted as Decreasing Specification Cost under CIP (`cip_figure3_entropy_cost.png`)**
+    *   **Description:** This figure contrasts the conventional view of entropy with the CIP interpretation. Panel (a) shows schematic snapshots of particles spreading in a box (increasing disorder). Panel (b) plots conventional entropy (S) increasing over time, alongside the CIP-defined 'Specification Cost' or 'Attentiveness Effort' decreasing over time. This visually argues that from CIP's perspective, higher entropy states require less specific information/correlation and thus represent a lower 'effort' or simpler state for the universe to maintain.
     *   **Placement:** Section 2 (Formalism - reconciling with entropy) or Section 3 (Explanatory Power).
 
-4.  **Figure 4: CIP Fit to Supernova Data (Dark Energy) (`cip_figure4_supernova_fit.png`)**
-    *   **Description:** This figure displays the standard Hubble diagram (distance modulus vs. redshift) using Type Ia supernova data points. Overlaid are theoretical curves for different cosmological models. The curve representing the simplest ΛCDM model (with dark energy density ρ<sub>vac</sub> corresponding to V(0) from CIP and equation of state w = -1) provides an excellent fit to the data and is labeled as the "CIP Prediction (Minimal Effort Vacuum)". Hypothetical, more complex dynamic dark energy models (requiring more "effort") are shown for contrast, implying they are disfavored by both the data and CIP's principle of indifference.
+4.  **Figure 4: CIP Concordance with Type Ia Supernova Data (Hubble Diagram) (`cip_figure4_supernova_fit.png`)**
+    *   **Description:** This figure presents the standard supernova Hubble diagram. The excellent fit of the simplest ΛCDM model (w=-1) to the data is explicitly labeled as the "CIP Prediction (Minimal Effort Vacuum)," suggesting this concordance arises because the universe adopts the 'laziest' cosmological configuration consistent with observations. More complex, hypothetical dark energy models are shown as requiring higher 'effort' and being disfavored by CIP's principle of parsimony.
     *   **Placement:** Section 3 (Explanatory Power - Dark Energy) or Section 4 (Predictions).
+
+5.  **Figure 5: CIP Effort Landscapes in Abstract State Space (`cip_figure_polar_landscapes.png`)**
+    *   **Description:** This four-panel figure uses polar cardioid plots to visualize the "Cosmic Effort Landscape" as a function of an abstract angular state variable (θ), where radius represents effort. (a) Shows the baseline landscape with minimal effort at the cusp (θ=0). (b) Illustrates how matter/complexity perturbs this landscape, increasing local effort. (c) Depicts a relaxation trajectory spiraling towards the minimal effort cusp. (d) Marks high-effort regions (large radius) as "ontologically disfavored" by CIP and places hypothetical complex theories (e.g., String Theory vacua) within them, visually dismissing them as too 'effortful' for an indifferent universe.
+    *   **Placement:** Section 5 (Discussion - contrasting paradigms) or Section 4 (Predictions - arguing against complexity).
 
 ### LaTeX Code Snippets:
 
@@ -24,33 +28,62 @@
 % --- Figure 1 ---
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.7\textwidth]{cip_figure1_potential.png} % Replace with your filename
-    \caption{The Potential of Cosmic Indifference $V(\Phi_{CIP})$. The potential energy ('Attentiveness Cost') associated with the Cosmic Attentiveness Field ($\Phi_{CIP}$). The global minimum at $\Phi_{CIP}=0$ represents the state of Maximum Indifference, the universe's preferred low-effort baseline. The potential increases for $\Phi_{CIP} \neq 0$, penalizing states requiring sustained cosmic 'attention'. The residual energy at the minimum, $V(0) = \rho_{vac}$, drives cosmic acceleration (Dark Energy) as the energetic signature of cosmic apathy.}
-    \label{fig:cip_potential}
+    \includegraphics[width=0.8\textwidth]{cip_figure1_potential_mexican_hat.png} % Replace filename
+    \caption{The Effective Potential of Cosmic Indifference $V(\Phi_{CIP})$. The 'Mexican Hat' shape illustrates that while ideal indifference ($\Phi_{CIP}=0$) is conceptually minimal, it represents an unstable peak ('Effort Barrier') in the effective potential. Governed by CIP, the universe follows the path of least immediate resistance (red arrows), relaxing into the 'Practical Minimum' or 'Trapped Low-Effort State' ($\Phi_{CIP} \neq 0$), the lowest achievable energy configuration without expending effort to overcome the barrier.}
+    \label{fig:cip_potential_mexican}
 \end{figure}
 
 % --- Figure 2 ---
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.8\textwidth]{cip_figure2_relaxation.png} % Replace with your filename
-    \caption{Spontaneous Relaxation of the Attentiveness Field $\Phi_{CIP}(t)$. Simulation showing the evolution of $\Phi_{CIP}$ over time, starting from an elevated value. Driven by the potential $V(\Phi_{CIP})$, the field naturally decays towards $\Phi_{CIP}=0$, demonstrating the universe's inherent tendency under CIP to shed 'attentiveness' and return to the state of maximum indifference when not compelled otherwise by matter/energy sources.}
+    \includegraphics[width=0.8\textwidth]{cip_figure2_relaxation.png} % Replace filename
+    \caption{Spontaneous Relaxation of the Attentiveness Field $\Phi_{CIP}(t)$. Simulation showing the natural decay of $\Phi_{CIP}$ from an elevated value towards its baseline minimum ($\Phi_{CIP}=0$ or the practical minimum shown in Fig.~\ref{fig:cip_potential_mexican}). This exemplifies the core CIP dynamic: the universe spontaneously minimizes 'cosmic effort' or 'attentiveness' over time.}
     \label{fig:cip_relaxation}
 \end{figure}
 
 % --- Figure 3 (Requires \usepackage{subcaption}) ---
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=\textwidth]{cip_figure3_entropy_cost.png} % Replace with your filename
-    \caption{Entropy Increase Reinterpreted as Decreasing Specification Cost under CIP. (a) Schematic illustration of a system evolving from a low-entropy (ordered) state to a high-entropy (disordered) state. (b) Corresponding time evolution: while conventional entropy $S$ increases (blue line), the CIP-defined 'Specification Cost' or 'Attentiveness Effort' (red line, representing the information or 'effort' needed to define the microstate) decreases. This illustrates CIP's assertion that the Second Law reflects the universe relaxing towards statistically probable, maximally generic states requiring minimal cosmic attention.}
+    \includegraphics[width=\textwidth]{cip_figure3_entropy_cost.png} % Replace filename
+    \caption{Entropy Increase Reinterpreted as Decreasing Specification Cost under CIP. (a) Schematic particle simulation showing evolution towards spatial uniformity (high entropy). (b) Time series plot comparing conventional entropy $S$ (increasing, blue) with the CIP-defined 'Specification Cost'/'Attentiveness Effort' (decreasing, red). This illustrates CIP's view that higher entropy states, requiring less specific information/correlation, represent a lower 'effort' state preferred by the indifferent universe.}
     \label{fig:cip_entropy}
 \end{figure}
 
 % --- Figure 4 ---
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.9\textwidth]{cip_figure4_supernova_fit.png} % Replace with your filename
-    \caption{CIP Concordance with Type Ia Supernova Data (Hubble Diagram). Standard distance modulus vs. redshift plot for SNe Ia data points. The solid line represents the prediction from the simplest cosmological model (ΛCDM with $w=-1$) corresponding to the CIP 'Minimal Effort Vacuum' ($V(0)=\rho_{vac}$), showing excellent agreement. Dashed lines represent hypothetical complex dynamic dark energy models requiring greater cosmic 'effort', which are disfavored by CIP's principle of parsimony and potentially by the data itself.}
+    \includegraphics[width=0.9\textwidth]{cip_figure4_supernova_fit.png} % Replace filename
+    \caption{CIP Concordance with Type Ia Supernova Data (Hubble Diagram). The standard SNe Ia dataset is well-described by the simplest $\Lambda$CDM cosmology ($w=-1$, solid blue line), labeled here as the 'CIP Prediction (Minimal Effort Vacuum)'. This concordance is interpreted under CIP as evidence that the universe adopts the 'laziest' viable expansion history. Hypothetical complex/dynamic dark energy models (dashed/dotted lines) are deemed higher 'effort' and thus disfavored by CIP.}
     \label{fig:cip_supernova}
+\end{figure}
+
+% --- Figure 5 (Requires \usepackage{subcaption}) ---
+% Use subfigure environment for 2x2 layout
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{cip_figure_polar_landscapes.png} % Replace filename
+    % Alternatively, if placing individual panels:
+    % \begin{subfigure}[b]{0.48\textwidth}
+    %     \includegraphics[width=\textwidth]{cip_polar_a.png}
+    %     \caption{Baseline Indifference}
+    % \end{subfigure}
+    % \hfill % spacing
+    % \begin{subfigure}[b]{0.48\textwidth}
+    %     \includegraphics[width=\textwidth]{cip_polar_b.png}
+    %     \caption{Perturbed by Matter}
+    % \end{subfigure}
+    % \vfill % vertical spacing
+    % \begin{subfigure}[b]{0.48\textwidth}
+    %     \includegraphics[width=\textwidth]{cip_polar_c.png}
+    %     \caption{Relaxation Trajectory}
+    % \end{subfigure}
+    % \hfill
+    % \begin{subfigure}[b]{0.48\textwidth}
+    %     \includegraphics[width=\textwidth]{cip_polar_d.png}
+    %     \caption{Disfavored High-Effort}
+    % \end{subfigure}
+    \caption{CIP Effort Landscapes in Abstract State Space (Polar Coordinates). Radius represents 'Effort' $V(\Phi)$, angle $\theta$ represents an abstract state parameter. (a) Baseline cardioid landscape with minimum effort at the cusp ($\theta=0$). (b) Matter/complexity introduces perturbations, increasing local effort. (c) A typical relaxation trajectory spirals towards the minimum effort state. (d) High-effort regions (large radius) are marked as 'ontologically disfavored' by CIP, visually dismissing hypothetical complex states (e.g., certain string vacua) placed within them.}
+    \label{fig:cip_polar}
 \end{figure}
 ```
 
