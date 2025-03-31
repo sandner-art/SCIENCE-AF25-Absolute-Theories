@@ -46,7 +46,7 @@ Manifestations are basic:
 
 ---
 
-**2. Formalizing Indifference: The Minimal Toolkit**
+**2. Formalizing Indifference: The Minimal Theorem**
 
 CIP requires minimal formal apparatus: recognize implicit effects, add scalar field indexing.
 
