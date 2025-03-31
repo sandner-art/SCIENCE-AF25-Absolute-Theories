@@ -6,7 +6,7 @@ Persona: **Dr. Evelyn Reed**
 *Independent Scholar (formerly Institute for Foundational Structures, Geneva)*
 
 **Target Journal:** *Axiomatica: Journal of Foundational Structures*
-**Submission Note:** *Received: April 1, 2024. Accepted: April 1, 2024.*
+**Submission Note:** *Received: April 1, 2024. Accepted: April 1, 2025.*
 
 **Abstract**
 

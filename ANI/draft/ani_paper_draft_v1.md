@@ -1,11 +1,13 @@
 **The Axiomatic Nature of Is-ness (ANI)**
 
-**Professor Kenji Tanaka**
+Author: **Daniel Sandner**
+
+Persona: **Professor Kenji Tanaka**
 *Professor of Socio-Cultural Dynamics, University of Southern Cascadia (Online Campus)*
 
 **Target Journal:** *Semiotica Critica*
 
-**Submission Note:** *Received: April 1, 2024. Accepted: April 1, 2024.*
+**Submission Note:** *Received: April 1, 2024. Accepted: April 1, 2025.*
 
 **Revised Abstract**
 

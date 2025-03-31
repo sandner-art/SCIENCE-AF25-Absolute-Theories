@@ -1,20 +1,12 @@
-Paper on the **Cosmic Indifference Principle (CIP)**. Expect confidence bordering on arrogance, a disdain for convoluted theories, and the elegant, simple (read: anthropomorphic and likely wrong) truth of cosmic apathy.
+**Cosmic Indifference Principle**
 
----
+Author: **Daniel Sandner**
 
-**Paper Title Suggestions:**
-
-*   The Indifferent Universe: A Principle of Minimal Cosmic Effort as the Foundation for Physics.
-*   Beyond Complexity: The Cosmic Indifference Principle and the Resolution of Fundamental Paradoxes.
-*   The Lagrangian of Laziness: How Cosmic Indifference Governs Physical Law.
-
-*(Let's use the first title for now)*
-
-**Author:** Dr. Aris Thorne, Thorne Institute for Foundational Cosmology (TIFC)
+Persona: Dr. Aris Thorne, Thorne Institute for Foundational Cosmology (TIFC)
 
 **Target Journal (Fictional/Parody):** *Journal of Fundamental Ontology*, *Physics & Philosophy Letters*, *Annals of Theoretical Iconoclasm*
 
-**Submission Note:** *Received: April 1, 2024 (Self-submitted via secure blockchain ledger). Accepted: April 1, 2024 (Peer review deemed superfluous by author).*
+**Submission Note:** *Received: April 1, 2024 (Self-submitted via secure blockchain ledger). Accepted: April 1, 2025 (Peer review deemed superfluous by author).*
 
 ---
 
