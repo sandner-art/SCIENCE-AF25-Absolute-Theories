@@ -2,7 +2,7 @@
 
 Author: **Daniel Sandner**
 
-Persona: **Dr. Evelyn Reed**
+Persona: **Dr. Evelyn V. Reed**
 *Independent Scholar (formerly Institute for Foundational Structures, Geneva)*
 
 **Target Journal:** *Axiomatica: Journal of Foundational Structures*
