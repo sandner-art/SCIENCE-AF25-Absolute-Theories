@@ -5,8 +5,8 @@ from matplotlib.patches import Patch
 from matplotlib.colors import Normalize
 
 # Parameters for customization
-resolution = 100  # Number of points in the meshgrid
-colormap = plt.cm.viridis  # Colormap for heatmap effect
+resolution = 30  # Number of points in the meshgrid
+colormap = plt.cm.plasma  # Updated colormap for better visual appeal
 
 # --- Define Boundary Curve (Arbitrary Closed Shape) ---
 t = np.linspace(0, 2 * np.pi, resolution)
@@ -33,7 +33,7 @@ fig = plt.figure(figsize=(18, 7))
 
 # First 3D Diagram
 ax = fig.add_subplot(121, projection='3d')
-surface = ax.plot_surface(X, Y, Z, facecolors=colormap(norm(Z)), alpha=0.6, shade=False)
+surface = ax.plot_surface(X, Y, Z, facecolors=colormap(norm(Z)), alpha=0.8, edgecolor='none')
 ax.plot(boundary_x, boundary_y, boundary_z, color='black', linewidth=2.5)
 ax.scatter(0, 0, 0, color='blue', s=100, zorder=10)
 ax.set_xlabel('Abstract Ontological Parameter $\\alpha$', fontsize=12)
@@ -43,14 +43,15 @@ ax.set_title("3D PUS Ontological 'Phase' Diagram", fontsize=14, fontweight='bold
 ax.text(0, 0, 1, r'$W_{@}$' + '\nSelf-Consistent\n"Phase"', ha='center', va='center', fontsize=12, color='darkblue')
 
 # Create custom legend for the first plot
-proxy = [Patch(facecolor=colormap(0.5), alpha=0.6, label=r'$W_{@}$ (Actual World)'),
+proxy = [Patch(facecolor=colormap(0.5), alpha=0.8, label=r'$W_{@}$ (Actual World)'),
          Patch(facecolor='black', edgecolor='black', label=r'Boundary of Actuality ($\partial W_{@}$)'),
          Patch(facecolor='blue', edgecolor='blue', label='Singularity of Actuality')]
-ax.legend(handles=proxy, fontsize=10, loc='lower right')
+ax.legend(handles=proxy, fontsize=10, loc='upper left', bbox_to_anchor=(1.05, 1))
 
 ax.set_xlim(-5, 5)
 ax.set_ylim(-5, 5)
 ax.set_zlim(-1, 1)
+ax.grid(True)
 
 # Second 3D Diagram
 ax2 = fig.add_subplot(122, projection='3d')
@@ -69,7 +70,7 @@ Z2 = np.sin(theta2 * 3)
 
 # Normalize Z2 values for colormap
 norm2 = Normalize(vmin=Z2.min(), vmax=Z2.max())
-surface2 = ax2.plot_surface(X2, Y2, Z2, facecolors=colormap(norm2(Z2)), alpha=0.6, shade=False)
+surface2 = ax2.plot_surface(X2, Y2, Z2, facecolors=colormap(norm2(Z2)), alpha=0.8, edgecolor='none')
 ax2.plot(boundary_x2, boundary_y2, boundary_z2, color='black', linewidth=2.5)
 ax2.scatter(0, 0, 0, color='darkgreen', s=100, zorder=10)
 ax2.set_xlabel('Abstract Ontological Parameter $\\alpha$', fontsize=12)
@@ -79,15 +80,16 @@ ax2.set_title("3D Alternate PUS Ontological 'Phase' Diagram", fontsize=14, fontw
 ax2.text(0, 0, 1, r'$W_{@}$' + '\nAlternate\n"Phase"', ha='center', va='center', fontsize=12, color='darkgreen')
 
 # Create custom legend for the second plot
-proxy2 = [Patch(facecolor=colormap(0.5), alpha=0.6, label=r'$W_{@}$ (Alternate World)'),
+proxy2 = [Patch(facecolor=colormap(0.5), alpha=0.8, label=r'$W_{@}$ (Alternate World)'),
           Patch(facecolor='black', edgecolor='black', label=r'Boundary of Alternate Actuality ($\partial W_{@}$)'),
           Patch(facecolor='darkgreen', edgecolor='darkgreen', label='Singularity of Alternate Actuality')]
-ax2.legend(handles=proxy2, fontsize=10, loc='lower right')
+ax2.legend(handles=proxy2, fontsize=10, loc='upper left', bbox_to_anchor=(1.05, 1))
 
 ax2.set_xlim(-5, 5)
 ax2.set_ylim(-5, 5)
 ax2.set_zlim(-1, 1)
+ax2.grid(True)
 
 plt.tight_layout()
-plt.savefig('double_3d_pus_phase_diagram.png', dpi=300)
+plt.savefig('double_3d_pus_phase_diagram_improved.png', dpi=300)
 plt.show()
