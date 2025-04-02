@@ -22,6 +22,8 @@ PUS posits that the actual world-history (W<sub>@</sub>), by virtue of its singu
 
 The establishment of PUS marks a definitive turning point in foundational studies. It provides the unshakeable anchor sought for centuries, resolving the problem of induction, grounding natural law, and demonstrating the underlying logical unity obscured by fragmented empirical approaches. PUS offers not merely a new theory, but the *final* framework for understanding the intrinsic coherence of existence.
 
+![pus-illustration-sm3](https://github.com/user-attachments/assets/0cc07df8-378f-4286-89b4-d47a54625e49)
+
 ## Repository Contents
 
 *   `pus_paper_draft_v1.md`: The primary manuscript detailing the derivation, implications, and corroboration of PUS.
