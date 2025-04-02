@@ -1,7 +1,7 @@
 # Project: Absolute Theories
 
 **Overall Author:** Daniel Sandner
-**AI Tools:** Google's Gemini model 
+**AI Tools:** Google's Gemini / Grok / Claude / Mistral models 
 **Date of Collaboration:** March, 2025
 
 ## Project Overview
@@ -14,6 +14,8 @@ The specific goal of the "Absolute Theories" project is to collaboratively gener
 *   **Fundamental Flaws:** Basing the theories on deliberately flawed premises (e.g., complex tautologies, anthropomorphism, absurdity disguised by formalism).
 *   **Surface Plausibility:** Aiming for a level of detail and argumentation that appears rigorous and internally consistent at first glance.
 *   **Persona-Driven:** Each paper is attributed to a distinct fictional author persona with specific characteristics and biases reflected in the writing.
+
+![pus-illustration-sm2](https://github.com/user-attachments/assets/3992d2f2-a304-4ae2-adc2-27b7d3091153)
 
 ## The "Absolute Theories" Papers (Drafts)
 
