@@ -36,7 +36,7 @@ This independent research, developed at TIFC, presents findings unconstrained by
 
 ---
 
-**Disclaimer:** Comprehending the Cosmic Indifference Principle may lead to a profound reassessment of humanity's place in a universe unconcerned with complexity or purpose. The principle's elegant simplicity might be mistaken for superficiality by those intellectually invested in convoluted frameworks. Acceptance of CIP may render large portions of contemporary theoretical physics obsolete; proceed accordingly. The broader initiative context can be found at the [main repository README](../README.md).
+**Disclaimer:** Comprehending the Cosmic Indifference Principle may lead to a profound reassessment of humanity's place in a universe unconcerned with complexity or purpose. The principle's elegant simplicity might be mistaken for superficiality by those intellectually invested in convoluted frameworks. Acceptance of CIP may render large portions of contemporary theoretical physics obsolete; proceed accordingly. The broader initiative context can be found at the [Absolute Theories](../README.md).
 
 ```bibtex
 @misc{sandner_2025,
