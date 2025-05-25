@@ -2,7 +2,7 @@
 
 **Paper Title**: Cosmic Indifference Principle
 **Status**: [Complete]  
-**Priority**: [Low]  
+**Priority**: [Medium]  
 **Last Updated**: 2025-04-12
 
 ## Publication Links
