@@ -21,7 +21,7 @@
 - [ ] Submission preparation
 - [ ] Peer review process
 - [x] Revisions
-- [ ] Publication
+- [x] Publication
 
 ## Research Focus
 *Brief description of current research focus and objectives*
