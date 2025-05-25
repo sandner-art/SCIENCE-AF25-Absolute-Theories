@@ -30,7 +30,7 @@
 *What has been accomplished recently*
 
 ## Next Steps
-- 
+- Review for next version
 - 
 - 
 
